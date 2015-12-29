@@ -61,6 +61,8 @@ group :test do
   gem 'mini_backtrace'
   # watch for changes and run corresponding tests when file is saved
   gem 'guard-minitest'
+  # required to fix load error when running minitest 
+  gem 'guard'
 end
 
 group :production do
